@@ -1,0 +1,117 @@
+ @layer character-button-layer, corkboard-layer;
+ .box{
+        max-width: 1000px;
+        margin: 50px auto;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 250px auto;
+    }
+    header,nav,main,footer{ 
+        border: #167D8D 4px solid;
+    }
+    header{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    nav{
+        grid-column: 1/2;
+        grid-row: 2/2;
+        height: max-content;
+    }
+    main{
+        grid-column: 2/4;
+        grid-row: 2/3;
+        height: max-content;
+    }
+
+    footer{
+        grid-column: 2/4;
+        grid-row: 3/4;
+    
+    }
+
+    body {
+        background-color: #071B2B;
+    }
+    h2,h1,nav{
+        color: #B9E4E8;
+        font-size:x-large;
+        margin: 10px;
+    }
+    p{
+        font-size: large;
+        color: #EEEEEE;
+        text-wrap: pretty;
+        margin: 10px;
+    }
+    ::selection{
+        background-color: #167D8D;
+    }
+    html{
+        scrollbar-color: #071B2B #55A9A0;
+        scrollbar-width: rounded;
+        scroll-behavior: smooth;
+    }
+    .corkboard-img{
+        filter: opacity(80%);
+    }
+    @layer corkboard-layer{
+        .corkboard-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px ;
+        }
+    }
+    
+    @layer character-button-layer{
+        .lu-guang-button{
+            display: block;
+            position:absolute;
+            top: 480px;
+            left: 165px;
+            z-index: 10;
+            background-color: #b2b4b4;
+            transform: rotate(20deg);
+            text-decoration: none;
+        }
+    
+    }
+    @layer character-button-layer{
+        .cheng-xiaoshi-button{
+            display: block;
+            position:absolute;
+            top: 490px;
+            left: 400px;
+            z-index: 10;
+            background-color: #b2b4b4;
+            transform: rotate(30deg);
+            text-decoration: none;
+        }
+    
+    }
+        @layer character-button-layer{
+        .qiao-ling-button{
+            display: block;
+            position:absolute;
+            top: 480px;
+            left: 640px;
+            z-index: 10;
+            background-color: #b2b4b4;
+            transform: rotate(-30deg);
+            text-decoration: none;
+        }
+    
+    }
+            @layer character-button-layer{
+        .felix-button{
+            display: block;
+            position:absolute;
+            top: 500px;
+            left: 870px;
+            z-index: 10;
+            background-color: #b2b4b4;
+            transform: rotate(20deg);
+            text-decoration: none;
+        }
+    }
