@@ -7,7 +7,8 @@
         grid-template-columns: 250px auto;
     }
 
-    header,nav,main,footer,footer2,footer3,footer4,footer5,footer6,footer7,footer8,footer9{ 
+    header,nav,main,footer,footer2,footer3,footer4,footer5,footer6,footer7,footer8,
+    footer9,footer10,footer11,footer12,footer13,footer14,footer15{ 
         border: #12544F 4px solid;
     }
     header{
@@ -64,7 +65,31 @@
         grid-column: 2/4;
         grid-row: 11/12;
     }
+    footer10{
+        grid-column: 2/4;
+        grid-row: 12/13;
+    }
+    footer11{
+        grid-column: 2/4;
+        grid-row: 13/14;
+    }
+    footer12{
+        grid-column: 2/4;
+        grid-row: 14/15;
+    }
+    footer13{
+        grid-column: 2/4;
+        grid-row: 15/16;
+    }
+    footer14{
+        grid-column: 2/4;
+        grid-row: 16/17;
+    }
 
+    footer15{
+        grid-column: 2/4;
+        grid-row: 17/18;
+    }
     body {
         background-color: #092328;
     }
@@ -81,7 +106,7 @@
     }
     a {
         font-size: large;
-        color: #8BBB92;
+        color: #2A835F;
         text-decoration: none;
         text-wrap: pretty;
         margin: 10px;
@@ -230,3 +255,82 @@
         }
     
     }
+    @layer movie-button-layer{
+        .hei-button{
+            display: block;
+            position: absolute;
+            top: 1570px;
+            left: 100px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .demon-slayer-button{
+            display: block;
+            position: absolute;
+            top: 1570px;
+            left: 480px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .train-to-busan-button{
+            display: block;
+            position: absolute;
+            top: 1570px;
+            left: 850px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .obsession{
+            display: block;
+            position: absolute;
+            top: 1980px;
+            left: 100px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .backrooms{
+            display: block;
+            position: absolute;
+            top: 1980px;
+            left: 480px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .your-name{
+            display: block;
+            position: absolute;
+            top: 1980px;
+            left: 850px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    
