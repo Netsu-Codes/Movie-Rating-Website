@@ -204,3 +204,29 @@
         }
     
     }
+    @layer movie-button-layer{
+        .aang-button{
+            display: block;
+            position: absolute;
+            top: 1150px;
+            left: 480px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .us-button{
+            display: block;
+            position: absolute;
+            top: 1150px;
+            left: 850px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
