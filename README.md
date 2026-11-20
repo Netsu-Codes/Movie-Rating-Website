@@ -15,7 +15,6 @@ A website for people to look for movie recommendations. It has my personal ratin
 (index)
 <img width="400" height="200" alt="image" src="images/Screenshot 2026-11-20 163847.png" /> 
 <img width="400" height="200" alt="image" src="images/Screenshot 2026-11-20 163903.png" /> 
-<img width="400" height="200" alt="image" src="images/Screenshot 2026-11-20 163903.png" /> 
 
 
 (movie page)
