@@ -1,4 +1,4 @@
- @layer character-button-layer, corkboard-layer;
+ @layer movie-button-layer;
  .box{
         max-width: 1000px;
         margin: 50px auto;
@@ -6,8 +6,9 @@
         grid-gap: 10px;
         grid-template-columns: 250px auto;
     }
-    header,nav,main,footer{ 
-        border: #167D8D 4px solid;
+
+    header,nav,main,footer,footer2,footer3,footer4,footer5,footer6,footer7,footer8,footer9{ 
+        border: #12544F 4px solid;
     }
     header{
         grid-column: 1/4;
@@ -22,6 +23,7 @@
         grid-column: 2/4;
         grid-row: 2/3;
         height: max-content;
+        text-decoration: none;
     }
 
     footer{
@@ -29,89 +31,176 @@
         grid-row: 3/4;
     
     }
+    footer2{
+        grid-column: 2/4;
+        grid-row: 4/5;
+    }
+
+    footer3{
+        grid-column: 2/4;
+        grid-row: 5/6;
+    }
+    footer4{
+        grid-column: 2/4;
+        grid-row: 6/7;
+    }
+    footer5{
+        grid-column: 2/4;
+        grid-row: 7/8;
+    }
+    footer6{
+        grid-column: 2/4;
+        grid-row: 8/9;
+    }
+    footer7{
+        grid-column: 2/4;
+        grid-row: 9/10;
+    }
+    footer8{
+        grid-column: 2/4;
+        grid-row: 10/11;
+    }
+    footer9{
+        grid-column: 2/4;
+        grid-row: 11/12;
+    }
 
     body {
-        background-color: #071B2B;
+        background-color: #092328;
     }
     h2,h1,nav{
-        color: #B9E4E8;
+        color: #8BBB92;
         font-size:x-large;
         margin: 10px;
     }
     p{
         font-size: large;
-        color: #EEEEEE;
+        color: #8BBB92;
+        text-wrap: pretty;
+        margin: 10px;
+    }
+    a {
+        font-size: large;
+        color: #8BBB92;
+        text-decoration: none;
         text-wrap: pretty;
         margin: 10px;
     }
     ::selection{
-        background-color: #167D8D;
+        background-color: #2A835F;
     }
     html{
-        scrollbar-color: #071B2B #55A9A0;
+        scrollbar-color: #092328 #2A835F;
         scrollbar-width: rounded;
         scroll-behavior: smooth;
     }
-    .corkboard-img{
-        filter: opacity(80%);
-    }
-    @layer corkboard-layer{
-        .corkboard-container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 60px ;
-        }
-    }
     
-    @layer character-button-layer{
-        .lu-guang-button{
+    @layer movie-button-layer{
+        .phm-button{
             display: block;
-            position:absolute;
-            top: 480px;
-            left: 165px;
+            position: absolute;
+            top: 340px;
+            left: 100px;
             z-index: 10;
-            background-color: #b2b4b4;
-            transform: rotate(20deg);
             text-decoration: none;
+            text-align: center;
+            
         }
     
     }
-    @layer character-button-layer{
-        .cheng-xiaoshi-button{
+
+    @layer movie-button-layer{
+        .re-button{
             display: block;
-            position:absolute;
-            top: 490px;
-            left: 400px;
+            position: absolute;
+            top: 340px;
+            left: 850px;
+
             z-index: 10;
-            background-color: #b2b4b4;
-            transform: rotate(30deg);
             text-decoration: none;
+            text-align: center;
+            
         }
     
     }
-        @layer character-button-layer{
-        .qiao-ling-button{
+
+
+     @layer movie-button-layer{
+        .nope-button{
             display: block;
-            position:absolute;
-            top: 480px;
-            left: 640px;
+            position: absolute;
+            top: 340px;
+            left: 480px;
             z-index: 10;
-            background-color: #b2b4b4;
-            transform: rotate(-30deg);
             text-decoration: none;
+            text-align: center;
+            
         }
     
     }
-            @layer character-button-layer{
-        .felix-button{
+
+    @layer movie-button-layer{
+        .silent-voice-button{
             display: block;
-            position:absolute;
-            top: 500px;
-            left: 870px;
+            position: absolute;
+            top: 740px;
+            left: 100px;
             z-index: 10;
-            background-color: #b2b4b4;
-            transform: rotate(20deg);
             text-decoration: none;
+            text-align: center;
+            
         }
+    
+    }
+    @layer movie-button-layer{
+        .spirited-away-button{
+            display: block;
+            position: absolute;
+            top: 740px;
+            left: 480px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .spider-man-button{
+            display: block;
+            position: absolute;
+            top: 740px;
+            left: 850px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .big-hero-button{
+            display: block;
+            position: absolute;
+            top: 740px;
+            left: 850px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
+    }
+    @layer movie-button-layer{
+        .kubo-button{
+            display: block;
+            position: absolute;
+            top: 1150px;
+            left: 100px;
+            z-index: 10;
+            text-decoration: none;
+            text-align: center;
+            
+        }
+    
     }
